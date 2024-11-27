@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placar de Futebol</title>
+
+  <body>
+  </body>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Placar de Futebol</h1>
+    </header>
+
+    <main>
+      <!-- Próximos jogos no canto esquerdo -->
+      <div class="upcoming-matches">
+        <h2>Próximos Jogos</h2>
+        <ul id="games-list">
+          <li>
+            <img src="Real_Madrid.png" alt="Real Madrid" class="team-logo">
+            <span>Real Madrid</span>  
+            <img src="images.png" alt="Barcelona" class="team-logo">
+            <span>Barcelona - 15:00</span>
+          </li>
+          <li>
+            <img src="Borussia_Dortmund_logo.svg.png" alt="Borussia" class="team-logo">
+            <span>Borussia</span> 
+            <img src="Logo_PSG.png" alt="PSG" class="team-logo">
+            <span>PSG - 18:00</span>
+          </li>
+          <li>
+            <img src="images (1).jfif" alt="Juventus" class="team-logo">
+            <span>Juventus</span>  
+            <img src="Boca_Juniors_logo18.svg.png" alt="Boca Junior" class="team-logo">
+            <span>Boca Junior - 20:30</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tempo da partida no centro -->
+      <div class="match-info">
+        <div class="current-match">
+          <img src="Al-Nassr_Football_Club.png" alt="al nassr" class="team-logo">
+          <span>al nassr </span> 
+
+          <img src="Inter_Miami_CF_logo.svg.png" alt="Time B" class="team-logo">
+          <span>Time B</span>
+        </div>
+        <div class="match-timer">
+          <h2>Tempo da Partida</h2>
+          <p id="time-display">00:00
+            
+          </p>
+          <div class="controls">
+            <button id="start-btn">Iniciar</button>
+            <button id="pause-btn">Pausar</button>
+            <button id="reset-btn">Reiniciar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Lorenzo</p>
+    </footer>
+  </div>
+  <script src="style.js"></script>
+</body>
+</html>
+

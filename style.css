@@ -1,0 +1,130 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('fundo.webp') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Container principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.6); /* Fundo translúcido para contraste */
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffcc00; /* Cor dourada para destacar */
+  }
+  
+  /* Área principal */
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Próximos jogos */
+  .upcoming-matches {
+    width: 25%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius:10px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .upcoming-matches ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .upcoming-matches li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .upcoming-matches .team-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Informações da partida */
+  .match-info {
+    width: 50%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .current-match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .current-match .team-logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+  }
+  
+  #time-display {
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ffcc00; /* Cor dourada para o tempo */
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #555;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #ffcc00; /* Cor dourada para o rodapé */
+  }
+  
